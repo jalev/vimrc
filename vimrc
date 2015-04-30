@@ -27,4 +27,10 @@ set softtabstop=2
 " Editing woes
 set autoindent 
 set smartindent
-set spell
+
+" Setting up mappins
+nnoremap <C-\> :NERDTreeToggle<CR>
+nnoremap <C-c> :Gwrite<CR>:Gcommit<CR>
+nnoremap <C-e> :Gwrite<CR>
+nnoremap <C-p> :Gpush<CR>
+
